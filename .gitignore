@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data & Storage (CRITICAL - Do not push large data to GitHub)
+delta_lake/
+mlflow_data/
+*.parquet
+*.csv
+*.json
+!notebooks/*.ipynb
+
+# Docker
+.docker/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project Scratch
+scratch/
